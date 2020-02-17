@@ -13,6 +13,7 @@ var guessesLeft = 9;
 
 // Functions ======================================================================================
 function startGame() {
+    
     selectedWord = wordOptions[Math.floor(Math.random() * wordOptions.length)];
     lettersInWord = selectedWord.split("");
     numBlanks = lettersInWord.length;
@@ -85,7 +86,7 @@ function gameComplete() {
     if (lettersInWord.toString() == blanksAndSuccess.toString()) {
         resetGuesses();
         winCount++;
-        alert("You Won!");
+        document.getElementById("win/loss").innerHTML = "You Won!!!";
 
         // Update the win counter in the HTML
         document.getElementById("winCounter").innerHTML = winCount;
@@ -96,7 +97,7 @@ function gameComplete() {
     else if (guessesLeft == 0) {
         resetGuesses();
         lossCount++
-        alert("You Lost!");
+        document.getElementById("win/loss").innerHTML = "You Lost!!!";
 
 
         // Update the HTML
@@ -114,6 +115,7 @@ startGame()
 
 //Register keyclicks
 document.onkeyup = function (event) {
+    document.getElementById("win/loss").innerHTML = "";
     var letterGuessed = String.fromCharCode(event.keyCode).toLowerCase();
     checkletters(letterGuessed);
     gameComplete();

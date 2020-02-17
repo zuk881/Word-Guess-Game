@@ -14,43 +14,34 @@
 <body>
     <div class="container">
 
-        <div class="jumbotron jumbotron-fluid">
+        <div class="jumbotron">
             <h1 class="display-4 text-center">Hangman!!!</h1>
             <p class="lead text-center">Guess the color</p>
         </div>
 
-        <div class="card">
-            <div class="card-header">
-                Word to guess
-            </div>
-            <div class="card-body">
-                <h1 class="card-title" id="wordToGuess">_ _ _ _ _ _ _ _</h1>
-            </div>
+        <div class="alert alert-primary" role="alert">
+            Word to Guess
+            <h1 id="wordToGuess">_ _ _ _ _ _ _ _</h1><h1 class="text-center" id="win/loss"></h1>
+        </div>
+        
+        <div class="alert alert-primary" role="alert">
+            Wrong Guesses: <span id="wrongGuesses"></span>
         </div>
 
-        <div class="card">
-            <div class="card-header">
-                Wrong Guesses: <span id="wrongGuesses"></span>
-            </div>
+        <div class="alert alert-primary" role="alert">
+            Guesses Left: <span id="numGuesses"></span>
         </div>
 
-        <div class="card">
-            <div class="card-header">
-                Guesses Left: <span id="numGuesses">9</span>
-            </div>
+
+        <div class="alert alert-primary" role="alert">
+            Win Counter: <span id="winCounter"></span>
         </div>
 
-        <div class="card">
-            <div class="card-header">
-                Win Counter: <span id="winCounter">0</span>
-            </div>
+
+        <div class="alert alert-primary" role="alert">
+            Loss Counter: <span id="lossCounter"></span>
         </div>
 
-        <div class="card">
-            <div class="card-header">
-                Loss Counter: <span id="lossCounter">0</span>
-            </div>
-        </div>
     </div>
 
     <script src="assets/javascript/game.js"></script>
