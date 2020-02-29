@@ -1,4 +1,29 @@
+
+body { 
+    background: url("../images/word-1.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
 div {
     margin-top: 25px;
 }
 
+.alert {
+    height: 100px;
+    font-size: 24px;
+    color: red;
+    font-weight: bolder;
+}
+
+.lead {
+    font-size: 22px;
+    color: blue;
+}
+
+h1 {
+    color: purple;
+    font-weight: bold;
+}
