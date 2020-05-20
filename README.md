@@ -6,7 +6,7 @@ Game theme is based on colors.
 [Try it here!]https://zuk881.github.io/Word-Guess-Game/
 )
 
-![catGif](https://i.imgur.com/TZreltD.png)
+![catGif](https://i.imgur.com/O82izOU.jpg)
 
 ## Installing
 To run the application locally, you will need to clone the repository to your local machine.
