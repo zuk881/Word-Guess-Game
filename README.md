@@ -5,7 +5,7 @@ Game resets automatically and keeps track of wins and losses.
 Game theme is based on colors.
 
 [Try it here!]https://zuk881.github.io/Word-Guess-Game/
-)
+
 
 ![catGif](https://i.imgur.com/O82izOU.jpg)
 
