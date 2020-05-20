@@ -4,8 +4,8 @@ Application will display correct, and incorrect guessses as well as let you know
 Game resets automatically and keeps track of wins and losses.
 Game theme is based on colors.
 
-[Try it here!]https://zuk881.github.io/Word-Guess-Game/
-
+[Try it here!](https://zuk881.github.io/Word-Guess-Game/
+)
 
 ![catGif](https://i.imgur.com/O82izOU.jpg)
 
